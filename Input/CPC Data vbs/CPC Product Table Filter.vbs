@@ -15,7 +15,7 @@ Sub CPC_Product_Table_Filter()
     Dim Pf As PivotField
     Dim Pi As PivotItem
     
-    Set PT = ThisWorkbook.Sheets("Pivot").PivotTables("PH Remarks Wise Pivot")
+    Set PT = ThisWorkbook.Sheets("Pivot").PivotTables("Product Wise Pivot")
     Set Pf = PT.PivotFields("Status")
     
     For Each Pi In Pf.PivotItems

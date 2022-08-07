@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1240,2289</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1240,2646</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Sending_Mail_CPC_Data_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="36">
@@ -84,7 +84,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sending_Mail_CPC_Data" sap:VirtualizedContainerService.HintSize="518,2224" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sending_Mail_CPC_Data" sap:VirtualizedContainerService.HintSize="518,2581" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="CPCDataPath" />
       <Variable x:TypeArguments="x:String" Name="MailDraftWebsiteURL" />
@@ -191,7 +191,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </umab:GmailApplicationCard>
-    <ui:RetryScope DisplayName="Retry Scope - Refreshing Mail Draft" sap:VirtualizedContainerService.HintSize="476,51" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+    <ui:RetryScope DisplayName="Retry Scope - Refreshing Mail Draft" sap:VirtualizedContainerService.HintSize="476,408" sap2010:WorkflowViewState.IdRef="RetryScope_1">
       <ui:RetryScope.ActivityBody>
         <ActivityAction>
           <Sequence DisplayName="Action - Retry Scope Opening Mail Draft" sap:VirtualizedContainerService.HintSize="242,143" sap2010:WorkflowViewState.IdRef="Sequence_6">
@@ -244,7 +244,7 @@
         <ActivityFunc x:TypeArguments="x:Boolean">
           <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'IMG'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
             <ui:UiElementExists.Target>
-              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ec65e6d1-5086-47aa-bd1c-edde6d9fd5a2" InformativeScreenshot="2275164b74ab6ce9e64c2d4f87fca262" Selector="&lt;html app='msedge.exe' title='Inbox (8,309) - gauravkeny1@gmail.com - Gmail' /&gt;&lt;webctrl parentid='gb' tag='IMG' /&gt;">
+              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ec65e6d1-5086-47aa-bd1c-edde6d9fd5a2" InformativeScreenshot="2275164b74ab6ce9e64c2d4f87fca262" Selector="&lt;html app='msedge.exe' title='Draft*- gauravkeny1@gmail.com - Gmail' /&gt;&lt;webctrl parentid='gb' tag='IMG' /&gt;">
                 <ui:Target.TimeoutMS>
                   <InArgument x:TypeArguments="x:Int32" />
                 </ui:Target.TimeoutMS>
@@ -258,7 +258,7 @@
       </ui:RetryScope.Condition>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>

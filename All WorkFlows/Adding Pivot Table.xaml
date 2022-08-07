@@ -71,7 +71,6 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Adding_Pivot_Table" sap:VirtualizedContainerService.HintSize="476,1511" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -155,8 +154,8 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[ProductPivotVbsPath]" DisplayName="Invoke VBA - Product Pivot VBS" EntryMethodName="Adding_Product_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_1" />
-            <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[PHRemarkPivotVbsPath]" DisplayName="Invoke VBA - Product Pivot VBS" EntryMethodName="Adding_PHRemarks_Wise_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_2" />
-            <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[BranchWisePivotVbsPath]" DisplayName="Invoke VBA - Product Pivot VBS" EntryMethodName="Adding_Branch_Wise_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_3" />
+            <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[PHRemarkPivotVbsPath]" DisplayName="Invoke VBA - PH Remark Wise Pivot" EntryMethodName="Adding_PHRemarks_Wise_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_2" />
+            <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[BranchWisePivotVbsPath]" DisplayName="Invoke VBA - Branch Wise Pivot" EntryMethodName="Adding_Branch_Wise_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_3" />
           </Sequence>
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
@@ -180,8 +179,8 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[ProductPivotVbsPath]" DisplayName="Invoke VBA - Product Pivot VBS" EntryMethodName="Adding_Product_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_4" />
-            <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[PHRemarkPivotVbsPath]" DisplayName="Invoke VBA - Product Pivot VBS" EntryMethodName="Adding_PHRemarks_Wise_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_5" />
-            <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[BranchWisePivotVbsPath]" DisplayName="Invoke VBA - Product Pivot VBS" EntryMethodName="Adding_Branch_Wise_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_6" />
+            <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[PHRemarkPivotVbsPath]" DisplayName="Invoke VBA - PH Remarks wise pivot" EntryMethodName="Adding_PHRemarks_Wise_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_5" />
+            <ui:InvokeVBA OutputValue="{x:Null}" CodeFilePath="[BranchWisePivotVbsPath]" DisplayName="Invoke VBA - Branch Wise Pivot" EntryMethodName="Adding_Branch_Wise_Pivot" EntryMethodParameters="[{GFD_RowCount.ToString}]" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeVBA_6" />
           </Sequence>
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
